@@ -6,7 +6,7 @@ import './global.css'
 export function App() {
 
   return (
-    <>
+    <div>
       <Header />
 
       <Post 
@@ -19,7 +19,8 @@ export function App() {
       />
       <Post />
       <Post />
-    </>
+    </div>
+    
   )
 }
 
